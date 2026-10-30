@@ -5,18 +5,6 @@ Exploration of simulated ecommerce data from an online electronics store
 Four Tables (customers: 1200 rows, orders: 5020 rows, order_items: 9423 rows,  products: 200 rows),
 dates range from 2023-01-01 to 2024-12-31. Analyzed using SQlite and PostgreSQL.
 
-## Database structure
-customers                 orders                     order_items               products
------------------         --------------------       ----------------------    ---------------
-id            (PK)        customer_id   (FK)         id            (PK)        id        (PK)
-name                      id            (PK)         order_id      (FK)        name
-country                   order_date                 product_id    (FK)        category
-segment                   status                     quantity                  price
-signup_date               total_amount               unit_price                cost
-email
-phone
-
-
 # Results
 
 ## Key Findings
